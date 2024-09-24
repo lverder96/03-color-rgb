@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- conexion js -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="img/favicon.png" type="image/image">
+  <!-- conexion js -->
+  <script type="module" src="app.js"></script>
+  <title>Color RGB</title>
+</head>
+<body>
+  <main class="container">
+    <article class="hexa"></article>
+      <p class="text-hexa">#000000</p>
+    </article>
+    <article class="container-box">
+      <div class="color">
+        <label for="color-red">Red (R)</label>
+        <input type="range" id="color-red" min="0" max="255" value="0">
+        <p class="text-red">0</p>
+      </div>
+
+      <div class="color">
+        <label for="color-green">Green (G)</label>
+        <input type="range" id="color-green" min="0" max="255" value="0">
+        <p class="text-green">0</p>
+      </div>
+
+      <div class="color">
+        <label for="color-blue">Blue (B)</label>
+        <input type="range" id="color-blue" min="0" max="255" value="0">
+        <p class="text-blue">0</p>
+      </div>
+    </article>
+  </main>
+</body>
+</html>
